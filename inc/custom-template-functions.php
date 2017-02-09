@@ -81,7 +81,6 @@ function header_cart() {
 		<li class="<?php echo esc_attr( $class ); ?>">
 			<?php storefront_cart_link(); ?>
 		</li>
-		<li>
 			<?php the_widget( 'WC_Widget_Cart', 'title=' ); ?>
 		</li>
 	</ul>

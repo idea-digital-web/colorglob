@@ -1,1 +1,1 @@
-<?php bloginfo('stylesheet_directory'); ?>/images/logo.png
+<?php bloginfo('stylesheet_directory'); ?>/images/logotipo-color.png
