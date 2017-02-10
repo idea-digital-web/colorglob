@@ -19,7 +19,7 @@ add_action( 'after_head', 'add_browsehappy', 10 );
  */
 	remove_action( 'storefront_sidebar', 'storefront_get_sidebar', 10 );
 	remove_action( 'storefront_before_content', 'storefront_header_widget_region', 10 );
-	// add_action( 'storefront_before_content', 'slider_principal', 10 );
+	add_action( 'storefront_before_content', 'slider_principal', 10 );
 
 /**
  * Header
@@ -68,10 +68,10 @@ add_action( 'after_head', 'add_browsehappy', 10 );
 	remove_action( 'homepage', 'storefront_homepage_content', 10 );
 	remove_action( 'homepage', 'storefront_product_categories', 20 );
 
-	remove_action( 'homepage', 'storefront_recent_products', 30 );
+	// remove_action( 'homepage', 'storefront_recent_products', 30 );
 	remove_action( 'homepage', 'storefront_featured_products', 40 );
 	remove_action( 'homepage', 'storefront_popular_products', 50 );
-	remove_action( 'homepage', 'storefront_on_sale_products ', 60);
+	// remove_action( 'homepage', 'storefront_on_sale_products', 60);
 	remove_action( 'homepage', 'storefront_best_selling_products', 70);
 	
 	// add_action( 'homepage', 'banners_content', 80 );
