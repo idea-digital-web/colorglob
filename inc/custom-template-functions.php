@@ -148,7 +148,7 @@ add_filter( 'storefront_featured_products_args', 'products_columns' );
 
 // Editamos los títulos de las secciones
 function recent_products_title( $args ) {
-	$args['title'] = 'Menú recientes'; // title ~> Título de la sección
+	$args['title'] = 'Productos recientes'; // title ~> Título de la sección
 	return $args;
 }
 add_filter( 'storefront_recent_products_args', 'recent_products_title' );
