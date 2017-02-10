@@ -1,1 +1,1 @@
-Administradora SCH, C.A. J-40641538-3
+Todos los derechos reservados de ColorGlob, C.A. 
