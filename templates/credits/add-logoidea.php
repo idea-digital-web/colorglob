@@ -1,1 +1,0 @@
-<img src="<?php get_stylesheet_directory_uri(); ?>/images/banner-content2.jpg" alt="Banner Content" />
