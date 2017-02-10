@@ -19,7 +19,7 @@ add_action( 'after_head', 'add_browsehappy', 10 );
  */
 	remove_action( 'storefront_sidebar', 'storefront_get_sidebar', 10 );
 	remove_action( 'storefront_before_content', 'storefront_header_widget_region', 10 );
-	add_action( 'storefront_before_content', 'slider_principal', 10 );
+	// add_action( 'storefront_before_content', 'slider_principal', 10 );
 
 /**
  * Header
