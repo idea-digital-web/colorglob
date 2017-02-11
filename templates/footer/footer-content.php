@@ -27,7 +27,10 @@
 		?>
 	</div>
 	<div class="site-footer__item">
-		<h2 class="contact-us">Dirección</h2>
+		<h2 class="contact-us">
+			<i class="fa fa-map-marker fa-lg" aria-hidden="true"></i>
+			Dirección
+		</h2>
 		<div class="site-footer__item--contact">
 			<p>
 				Av México, Torre Metropolitana 2,<br>
@@ -37,7 +40,7 @@
 		</div>
 
 		<h2 class="contact-us">
-		Contáctenos
+			Contáctenos
 		</h2>
 		<div class="site-footer__item--contact">
 			<i class="fa fa-phone fa-lg"></i>
