@@ -30,9 +30,9 @@
 		<h2 class="contact-us">Dirección</h2>
 		<div class="site-footer__item--contact">
 			<p>
-				Centro Comercial La Redoma, <br>
-				Local 67. Los Robles. <br>
-				PORLAMAR - NUEVA ESPARTA
+				Av México, Torre Metropolitana 2,<br>
+				La Esperilla, Santo Domingo, <br>
+				República Dominicana
 			</p>
 		</div>
 
@@ -40,8 +40,8 @@
 		Contáctenos
 		</h2>
 		<div class="site-footer__item--contact">
-			<!-- <i class="fa fa-phone"></i> -->
-			<img src="<?php bloginfo('stylesheet_directory'); ?>/images/phone-call.png" alt="" />
+			<i class="fa fa-phone fa-lg"></i>
+			<!-- <img src="<?php bloginfo('stylesheet_directory'); ?>/images/phone-call.png" alt="" /> -->
 			<span><?php get_template_part( 'templates/header/add', 'phone'); ?></span>
 		</div>
 		<!-- <div class="site-footer__item--contact">
@@ -53,14 +53,14 @@
 			<span><?php get_template_part( 'templates/footer/add', 'whatsapp'); ?></span>
 		</div> -->
 		<div class="site-footer__item--contact">
-			<!-- <i class="fa fa-envelope"></i> -->
-			<img src="<?php bloginfo('stylesheet_directory'); ?>/images/envelope.png" alt="" />
+			<i class="fa fa-envelope fa-lg"></i>
+			<!-- <img src="<?php bloginfo('stylesheet_directory'); ?>/images/envelope.png" alt="" /> -->
 			<!-- <span class="email"><?php bloginfo('admin_email'); ?></span> -->
 			<span><?php get_template_part( 'templates/footer/add', 'email'); ?></span>
 		</div>
 		<div class="site-footer__item--contact">
-			<!-- <i class="fa fa-clock-o"></i> -->
-			<img src="<?php bloginfo('stylesheet_directory'); ?>/images/time.png" alt="" />
+			<i class="fa fa-clock-o fa-lg"></i>
+			<!-- <img src="<?php bloginfo('stylesheet_directory'); ?>/images/time.png" alt="" /> -->
 			<span>8:30 am a 4:30 pm</span>
 		</div>
 	<!-- 	<div class="site-footer__item--contact">
