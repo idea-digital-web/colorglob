@@ -74,7 +74,7 @@ add_action( 'after_head', 'add_browsehappy', 10 );
 	// remove_action( 'homepage', 'storefront_on_sale_products', 60);
 	remove_action( 'homepage', 'storefront_best_selling_products', 70);
 	
-	// add_action( 'homepage', 'banners_content', 80 );
+	add_action( 'homepage', 'banners_content', 80 );
 	// add_action( 'homepage_after_content', 'add_google_maps', 90 );
 
 /**
