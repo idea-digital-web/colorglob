@@ -198,14 +198,7 @@ function footer_content() {
 }
 
 function storefront_credit() {
-	?>
-	<div class="site-info">
-		<?php echo esc_html( apply_filters( 'storefront_copyright_text', $content = '&copy; ' . get_template_part( 'templates/credits/add', 'razonsocial' ) . ' ' . date( 'Y' ) ) ); ?>
-		<?php if ( apply_filters( 'storefront_credit_link', true ) ) {
-			printf( esc_attr__( '%1$s por: %2$s', 'storefront' ), '| Desarrollado', '<a href="http://www.ideadigital.com.ve/" title="IdeaPro" rel="author" target="_blank" id="linkIdea"></a>' );
-		} ?>
-	</div><!-- .site-info -->
-	<?php
+	get_template_part( 'templates/footer/footer', 'credits');
 }
 
 /**
