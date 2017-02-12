@@ -4,7 +4,7 @@
 		Nosotros
 		</h2>
 		<picture>
-			<img src="<?php get_template_part( 'templates/footer/logo', 'footer'); ?>" alt="Logo Footer" />
+			<img src="<?php get_template_part( 'templates/footer/logo'); ?>" alt="Logo Footer" />
 		</picture>
 		<p><?php bloginfo('description'); ?></p>
 		<!-- <span class="cards">
@@ -32,11 +32,7 @@
 			Dirección
 		</h2>
 		<div class="site-footer__item--contact">
-			<p>
-				Av México, Torre Metropolitana 2,<br>
-				La Esperilla, Santo Domingo, <br>
-				República Dominicana
-			</p>
+			<?php get_template_part( 'templates/contactame/address'); ?>
 		</div>
 
 		<h2 class="contact-us">
@@ -45,21 +41,21 @@
 		<div class="site-footer__item--contact">
 			<i class="fa fa-phone fa-lg"></i>
 			<!-- <img src="<?php bloginfo('stylesheet_directory'); ?>/images/phone-call.png" alt="" /> -->
-			<span><?php get_template_part( 'templates/header/add', 'phone'); ?></span>
+			<span><?php get_template_part( 'templates/contactame/phone', 'local'); ?></span>
 		</div>
 		<!-- <div class="site-footer__item--contact">
 			<i class="fa fa-mobile"></i>
-			<span><?php get_template_part( 'templates/header/add', 'mobile'); ?></span>
+			<span><?php get_template_part( 'templates/contactame/phone', 'mobile'); ?></span>
 		</div> -->
 		<!-- <div class="site-footer__item--contact">
 			<i class="fa fa-whatsapp" aria-hidden="true"></i>
-			<span><?php get_template_part( 'templates/footer/add', 'whatsapp'); ?></span>
+			<span><?php get_template_part( 'templates/contactame/phone', 'whatsapp'); ?></span>
 		</div> -->
 		<div class="site-footer__item--contact">
 			<i class="fa fa-envelope fa-lg"></i>
 			<!-- <img src="<?php bloginfo('stylesheet_directory'); ?>/images/envelope.png" alt="" /> -->
 			<!-- <span class="email"><?php bloginfo('admin_email'); ?></span> -->
-			<span><?php get_template_part( 'templates/footer/add', 'email'); ?></span>
+			<span><?php get_template_part( 'templates/contactame/email'); ?></span>
 		</div>
 		<div class="site-footer__item--contact">
 			<i class="fa fa-clock-o fa-lg"></i>
@@ -75,6 +71,6 @@
 		Mensaje Directo
 		</h2>
 		<!-- <h2 class="form"></h2> -->
-		<?php get_template_part( 'templates/footer/footer', 'formcraft'); ?>
+		<?php get_template_part( 'templates/footer/formcraft'); ?>
 	</div>
 </div>

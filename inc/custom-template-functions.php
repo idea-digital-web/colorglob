@@ -194,11 +194,11 @@ function banners_content(){
 */
 
 function footer_content() {
-	get_template_part( 'templates/footer/footer', 'content');
+	get_template_part( 'templates/footer/content');
 }
 
 function storefront_credit() {
-	get_template_part( 'templates/footer/footer', 'credits');
+	get_template_part( 'templates/footer/credits');
 }
 
 /**
