@@ -41,21 +41,37 @@
 		<div class="site-footer__item--contact">
 			<i class="fa fa-phone fa-lg"></i>
 			<!-- <img src="<?php bloginfo('stylesheet_directory'); ?>/images/phone-call.png" alt="" /> -->
-			<span><?php get_template_part( 'templates/contactame/phone', 'local'); ?></span>
+			<span>
+				<a href="tel:<?php get_template_part( 'templates/contactame/phone', 'local'); ?>">
+				  <?php get_template_part( 'templates/contactame/phone', 'local'); ?>
+				</a>
+			</span>
 		</div>
 		<!-- <div class="site-footer__item--contact">
 			<i class="fa fa-mobile"></i>
-			<span><?php get_template_part( 'templates/contactame/phone', 'mobile'); ?></span>
+			<span>
+				<a href="tel:<?php get_template_part( 'templates/contactame/phone', 'mobile'); ?>">
+				  <?php get_template_part( 'templates/contactame/phone', 'mobile'); ?>
+				</a>
+			</span>
 		</div> -->
 		<!-- <div class="site-footer__item--contact">
 			<i class="fa fa-whatsapp" aria-hidden="true"></i>
-			<span><?php get_template_part( 'templates/contactame/phone', 'whatsapp'); ?></span>
+			<span>
+				<a href="tel:<?php get_template_part( 'templates/contactame/phone', 'whatsapp'); ?>">
+				  <?php get_template_part( 'templates/contactame/phone', 'whatsapp'); ?>
+				</a>
+			</span>
 		</div> -->
 		<div class="site-footer__item--contact">
 			<i class="fa fa-envelope fa-lg"></i>
 			<!-- <img src="<?php bloginfo('stylesheet_directory'); ?>/images/envelope.png" alt="" /> -->
 			<!-- <span class="email"><?php bloginfo('admin_email'); ?></span> -->
-			<span><?php get_template_part( 'templates/contactame/email'); ?></span>
+			<span>
+				<a href="mailto:<?php get_template_part( 'templates/contactame/email'); ?>">
+					<?php get_template_part( 'templates/contactame/email'); ?>
+				</a>
+			</span>
 		</div>
 		<div class="site-footer__item--contact">
 			<i class="fa fa-clock-o fa-lg"></i>

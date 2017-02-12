@@ -2,9 +2,15 @@
   <div class="site-header_nav--item site-header_nav--contact">
     <i class="fa fa-mobile">
     </i>
+    <!-- <span>
+      <a href="tel:<?php get_template_part( 'templates/contactame/phone', 'local'); ?>">
+        <?php get_template_part( 'templates/contactame/phone', 'local'); ?>
+      </a>
+    </span>/ -->
     <span>
-      <!-- <?php get_template_part( 'templates/contactame/phone', 'phone'); ?> / -->
-      <?php get_template_part( 'templates/contactame/phone', 'mobile'); ?>
+      <a href="tel:<?php get_template_part( 'templates/contactame/phone', 'mobile'); ?>">
+        <?php get_template_part( 'templates/contactame/phone', 'mobile'); ?>
+      </a>
     </span>
   </div>
   <!-- <div class="site-header_nav--item site-header_nav--contact">
