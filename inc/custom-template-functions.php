@@ -23,7 +23,7 @@ if ( ! function_exists( 'slider_principal' ) ) {
 
 // Agregar Nav Top
 function nav_top_login(){
-	get_template_part('templates/header/navbar', 'top');
+	get_template_part('templates/header/navbar');
 }
 
 /** Agregar Logo en el Header */
@@ -32,7 +32,7 @@ function storefront_site_branding() {
 	?>
 		<div class='logo_header'>
 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-				<img src="<?php get_template_part( 'templates/header/logo', 'header'); ?>" alt="Logo Header" />
+				<img src="<?php get_template_part( 'templates/header/logo'); ?>" alt="Logo Header" />
 			</a>
 		</div>
 	<?php
@@ -45,7 +45,7 @@ function storefront_site_branding() {
 function banner_header() {
 	?>
 		<picture>
-			<img src="<?php get_template_part( 'templates/header/banner', 'header'); ?>" alt="Banner Header" />
+			<img src="<?php get_template_part( 'templates/header/banner'); ?>" alt="Banner Header" />
 		</picture>
 	<?php
 }
