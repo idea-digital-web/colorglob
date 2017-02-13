@@ -80,6 +80,7 @@ function header_cart() {
 	<ul class="site-header-cart menu">
 		<li class="<?php echo esc_attr( $class ); ?>">
 			<?php storefront_cart_link(); ?>
+			<img class='imagen-carrito' src='<?php bloginfo('stylesheet_directory'); ?>/images/shopping-cart.png'>
 		</li>
 			<?php the_widget( 'WC_Widget_Cart', 'title=' ); ?>
 		</li>
