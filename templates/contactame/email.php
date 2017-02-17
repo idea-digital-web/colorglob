@@ -1,1 +1,1 @@
-hola@colorglob.com
+colorglobventas@gmail.com

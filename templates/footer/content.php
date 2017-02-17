@@ -76,7 +76,11 @@
 		<div class="site-footer__item--contact">
 			<i class="fa fa-clock-o fa-lg"></i>
 			<!-- <img src="<?php bloginfo('stylesheet_directory'); ?>/images/time.png" alt="" /> -->
-			<span>8:30 am a 4:30 pm</span>
+			<span>Horarios:</span>
+			<div>Lunes a Viernes</div>
+			<div>8:30 am a 4:30 pm</div>
+			<div>Sábado y Domingo</div>
+			<div>8:30 am a 4:30 pm</div>
 		</div>
 	<!-- 	<div class="site-footer__item--contact">
 			Somos tienda virtual con entregas previo acuerdo.
